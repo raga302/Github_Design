@@ -1,0 +1,687 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    height: 50px;
+    padding-top: 10px;
+
+}
+
+.container-fluid-nav input{
+    background-color: #273040;
+    border-radius: 5px;
+    outline: none;
+}
+
+.main div div p{
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.main div div p:hover{
+    cursor: pointer;
+    color: #47c968 !important;
+}
+.img_box img{
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 50%;
+   
+}
+
+::placeholder{
+    color: aliceblue;
+    padding: 5px 10px;
+}
+
+.icon_div{
+    display: none;
+}
+
+.sign_in_btn button{
+    transition: all 0.3s ease;
+}
+.sign_in_btn button:hover{
+    border: 1px solid #a9a3f8 !important;
+
+}
+
+.hidden_menu_div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 2px solid yellow;
+    width: 100vw;
+    height: 100vh;
+    display: flex ;
+    justify-content: start !important;
+    align-items: start ;
+    display: none;
+   
+    z-index: 99;
+}
+
+.hidden_menu_div .menu_div{
+    width: 95vw !important;
+    height: 100vh !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.menu_mini_box{
+    height: 40rem;
+    position: relative;
+}
+
+.menu_mini_box p{
+    font-weight: 500;
+    font-size: 2.5vw;
+    margin-top: 1rem;
+}
+
+.hidden_menu_div input{
+    background-color: #273040;
+    
+}
+
+.hidden_menu_bottom_item{
+    position: absolute;
+    bottom: 0;
+}
+
+.content_main_box{
+    margin-top: 8rem;
+}
+
+.content_main_first_box{
+    position: relative;
+}
+.line{
+    width: 2px;
+    height: 0px;
+    background-color: #7C72FF;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    box-shadow: #7C72FF 0px 54px 55px, #7C72FF 0px -12px 30px, #7C72FF 0px 4px 6px, #7C72FF 0px 12px 13px, #7C72FF 0px -3px 5px;
+}
+
+.second_line{
+    background: linear-gradient(177deg, #7C72FF 20%, rgba(0,212,255,1) 35%, rgba(0,255,55,1) 100%);
+    width: 2px;
+    height: 0px;
+    border-radius: 50%;
+}
+
+.third_line{
+    background: #4eff7a;
+    width: 2px;
+    height: 0px;
+    border-radius: 50%;
+}
+
+.fouth_line{
+    background: #4eff7a;
+    width: 2px;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+}
+
+.fivth_line{
+    background: #4eeaff;
+    width: 2px;
+    height: 0px;
+   
+    border-radius: 50%;
+}
+
+.sixth_line{
+    background: #4eeaff;
+    width: 2px;
+    height: 0px;
+    border-radius: 50%;
+}
+
+
+.seventh_line{
+    background: #ff8bff;
+    width: 2px;
+    height: 0px;
+    border-radius: 50%;
+}
+
+.eight_line{
+    background: #ff8bff;
+    width: 2px;
+    height: 0px;
+    border-radius: 50%;
+}
+
+#Accelerate_innovation2{
+    color: #5dffff;
+}
+#Supercharge_collaboration{
+    color: #ff8bff;
+    font-size: 3.8vw;
+}
+
+.efficiently{
+    font-size: 3.5vw;
+}
+.lessthen_greater_then{
+    font-size: 4vw;
+    filter: drop-shadow(4px 4px 2px #7C72FF);
+    opacity: 0;
+    
+}
+
+.brifcase_icon{
+    font-size: 2vw;
+    filter: drop-shadow(2px 2px 2px #4eff7a);
+    opacity: 0;
+}
+
+.locker_icon{
+    font-size: 2vw;
+    filter: drop-shadow(2px 2px 2px #4eeaff);
+    opacity: 0;
+}
+
+.handshake_icon{
+    font-size: 2vw;
+    filter: drop-shadow(2px 2px 2px #ff8bff);
+    opacity: 0;
+}
+
+.content_second_box .input_span_btn_div{
+    margin-top: 6rem !important;
+}
+
+.content_second_box h1{
+    font-size: 6.5vw;
+}
+
+.content_second_box p{
+    font-size: 1.7vw;
+}
+
+
+.content_second_box div input{
+
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.content_second_box div button{
+
+    height: 45px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #fff;
+    background-color: #5249ce;
+    margin-left: -5px;
+    border: none;
+    outline: none;
+    
+}
+
+.content_second_box div ::placeholder{
+    color: gray;
+    font-size: 1.2vw;
+    
+}
+
+.small_line{
+    width: 1px;
+    height: 45px;
+    background-color: gray;
+    display: block;
+    margin-top: 0px;
+}
+
+.free_trial_btn{
+  
+    height: 45px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: transparent !important;
+    border: 1px solid #776efa !important;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.free_trial_btn:hover{
+    border: 1px solid #fff !important;
+}
+
+
+.img_div{
+    margin-top: 0 !important;
+}
+.trusted_by_world_p{
+    margin-top: 5rem;
+}
+.one_line_imags_div img{
+    width: 90%;
+    object-position: left;
+    object-fit: contain;
+    height: 50px;
+}
+
+.Productivity_div{
+    margin-top: 7rem;
+}
+
+.Productivity_div h1{
+    font-size: 3vw;
+}
+
+.Productivity_div #Accelerate_innovation{
+    color: rgb(79, 196, 79);
+}
+
+.Productivity_div .Our_AI{
+    font-size: 3vw;
+    width: 60vw;
+}
+
+.code_img_div{
+    position: relative;
+}
+
+.code_img_div .code1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 1;
+}
+
+.code_img_div .code_img{
+    width: 500px;
+    top: 40%;
+    position: absolute;
+    right: 0px;
+    border-radius: 8px;
+ 
+}
+
+
+.code_img_div .code_img:hover{
+    box-shadow: #7C72FF 5px 5px 20px;
+}
+
+.github_copilot{
+    width: 33vw;
+    font-weight: 600;
+    font-size: 1.8vw;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 1.8rem;
+}
+
+
+.github_copilot span{
+    color: #fff;
+}
+
+.lines_div{
+    position: relative;
+}
+
+.curve_line_img{
+    width: 80px;
+    z-index: 999;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    opacity: 1;
+
+}
+
+.did_you_know_btn{
+    width: 100px;
+    font-size: 0.8vw;
+    padding: 2px 0;
+    border-radius: 12px;
+    background-color: transparent;
+    color: #47c968;
+    border: 1px solid #47c968;
+    outline: none;
+    margin-left: 1.5rem;
+    margin-top: 10rem;
+}
+
+.increase_btn{
+    color: #47c968;
+    margin-left: 1.5rem;
+    margin-top: 0;
+    font-size: 5vw;
+}
+
+.testing{
+    width: 100%;
+    height: 500px;
+    background-color:transparent;
+}
+
+.code4_div img{
+    width: 100%;
+    height: 100%;
+}
+.llu_Img_div img{
+    width: 100%;
+    height: 100%;
+}
+
+.git_action_div{
+    position: relative;
+}
+
+.git_action_div .Discover{
+    position: absolute !important;
+    bottom: 50px;
+    cursor: pointer;
+}
+.git_action_div .Discover{
+    position: absolute !important;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+.gihub_action_main_div{
+    margin-top: 8rem;
+    background-color: #161B22;
+    border-radius: 8px;
+}
+
+.check_out_github{
+    margin-top: 20px ;
+}
+
+.Application_security_div{
+    margin-top: 10rem !important;
+}
+
+
+.subscribe_btn{
+    padding: 8px 15px;
+    background: transparent;
+    font-weight: bold;
+    color: #fff;
+    border: 0.5px solid #fff;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.subscribe_btn:hover{
+    border: 2px solid #fff;
+}
+
+.ul_tag li{
+    list-style: none;
+    padding: 5px 0;
+    color: gray;
+    transition: all 0.2s ease;
+}
+
+.ul_tag li:hover{
+    color: #4eeaff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    .free_trial_btn{
+        width: 25vw !important;
+        padding: 5px 10px;
+    }
+    .gihub_action_mini_div{
+        display: flex !important;
+        flex-direction: column !important;
+      }
+      .git_action_div .Discover{
+        bottom: -70px !important;
+      }
+   
+  }
+
+
+
+@media only screen and (max-width: 992px) {
+    .hide{
+        visibility: hidden !important;
+    }
+    .free_trial_btn{
+        width: 27vw !important;
+        font-size: 2vw ;
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+    .signup_for_github{
+        font-size: 2.2vw ;
+        border-radius: 8px !important;
+        margin-left: 2px !important;
+        margin-top: 10px !important;
+    }
+    .content_second_box div ::placeholder{
+        font-size: 2vw !important;
+        
+    }
+    
+    .code_img{
+        width: 350px !important;
+         
+    }
+    .icon_div{
+        display: block;
+        position: absolute;
+        right: 5%;
+        font-size: 25px;
+    }
+    .img_box{
+        position: absolute;
+   
+        left: 50%;
+    }
+    .sign_in_btn{
+        position: absolute;
+        left: 10%;
+        width: 100px !important;
+    }
+    .sign_in_btn .btn{
+        width: 75px;
+        padding: 5px 0px !important;
+    }
+    .input_span_btn_div{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+    .small_line{
+        width: 65vw !important;
+        height: 1px !important;
+        margin-top: 10px;
+    }
+    .one_line_imags_div{
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+    
+    .one_line_imags_div div{
+        margin-top: 20px !important;
+    }
+    .one_line_imags_div div img{
+        width: 90% !important;
+        
+    }
+    .gihub_action_mini_div{
+        display: flex !important;
+        flex-direction: column !important;
+      }
+      .git_action_div .Discover{
+        bottom: -50px !important;
+      }
+    .footer_MAin_div{
+        display: flex !important;
+        flex-direction: column !important;
+      }
+  }
+
+
+  
+  @media only screen and (max-width: 768px) {
+    .img_box img{
+        width: 100%;
+
+    }
+    .content_second_box .world_leading{
+        font-size: 2.5vw !important;
+    }
+    .trusted_by_world_p{
+        font-size: 2.5vw !important;
+    }
+    .code_img{
+        width: 300px !important;
+        top: 0% !important;
+  }
+  .github_copilot{
+    width:90% !important;
+    font-size: 3vw !important;
+    margin-top: 4.5rem ;
+  }
+  .curve_line_img{
+    width: 65px !important;
+  }
+  .did_you_know_btn{
+    width: 150px !important;
+    font-size: 2vw !important;
+    margin-top: 5rem !important;
+  }
+  .read_the_report{
+    width: 100% !important;
+    font-size: 3vw !important;
+  }
+  .content_main_box{
+    margin-top: 5rem !important;
+  }
+  .gihub_action_mini_div{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .git_action_div .Discover{
+    bottom: -40px !important;
+  }
+ 
+  }
+
+  @media only screen and (max-width: 868px) {
+    .menu_mini_box{
+        width: 40vw !important;
+    }
+    .menu_mini_box p{
+        font-size: 3vw;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 668px) {
+    .did_you_know_btn{
+      
+        margin-top: 7.5rem !important;
+      }
+      .read_the_report{
+        width: 100% !important;
+      }
+    
+  }
+
+
+
+  @media only screen and (max-width: 568px) {
+    .menu_mini_box{
+        width: 80vw !important;
+    }
+    .menu_mini_box p span{
+        margin-left: 100px !important;
+    }
+
+    .menu_mini_box p{
+        font-size: 4vw;
+    }
+    .Let_build{
+        font-size: 8vw !important;
+    }
+    .content_second_box .world_leading{
+        font-size: 3vw !important;
+        margin-bottom: 0 !important;
+    }
+    .input_span_btn_div div ::placeholder{
+        font-size: 3.5vw !important;
+    }
+    .signup_for_github{
+        font-size: 3.5vw !important;
+    }
+    .free_trial_btn{
+        font-size: 3.5vw !important;
+    }
+    .trusted_by_world_p{
+        font-size: 3vw !important;
+    }
+    .Productivity_div h3{
+        font-size: 5vw !important;
+    }
+    .Productivity_div #Accelerate_innovation{
+        font-size: 5vw !important;
+    }
+    .did_you_know_btn{
+        width: 150px !important;
+        font-size: 3vw !important;
+        padding: 2px 5px;
+        margin-top: 6rem !important;
+      }
+      .offers_a_complete{
+        margin-top: 0!important;
+      }
+      .check_out_github{
+        margin-top: 0 !important;
+      }
+      .automates{
+        margin-top: 0 !important;
+      }
+      
+  }
+
+
+
+
+  @media only screen and (max-width: 468px) {
+    .img_box img{
+        width: 10vw;
+
+    }
+    .menu_mini_box p span{
+        margin-left: 50px !important;
+    }
+    .menu_mini_box p{
+        font-size: 5vw;
+    }
+    .git_action_div .Discover{
+        bottom: -30px !important;
+      }
+      .github_copilot{
+        margin-top: 0 !important;
+      }
+      .code_img{
+        width: 200px !important;
+      }
+  }

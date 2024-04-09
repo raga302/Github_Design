@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body style="background-color: #0D1117;">
+    <header>
+        <!-- NavBar Start-->
+        <nav>
+            <div class="container-fluid container-fluid-nav  d-flex justify-content-center align-items-center">
+                <div class="row">
+                    <div
+                        class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 d-flex justify-content-center main">
+                        <!-- Left Side NavBar Start-->
+                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7 col-xs-7 d-flex">
+
+                            <div
+                                class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 col-xs-1 img_box  d-flex justify-content-center align-items-center">
+                                <img src="images/github_logo.png" class="bg-light" alt="">
+                            </div>
+                            <div
+                                class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 col-xs-2    d-flex justify-content-center align-items-center hide">
+                                <p class="text-light  m-0">Products &nbsp;<i class="fa-solid fa-angle-down"
+                                        style="color: gray;"></i></p>
+                            </div>
+                            <div
+                                class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 col-xs-2    d-flex justify-content-center align-items-center hide">
+                                <p class="text-light  m-0">Solutions &nbsp;<i class="fa-solid fa-angle-down"
+                                        style="color: gray;"></i></p>
+                            </div>
+                            <div
+                                class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 col-xs-3 hide   d-flex justify-content-center align-items-center">
+                                <p class="text-light m-0">Opne Source &nbsp;<i class="fa-solid fa-angle-down"
+                                        style="color: gray;"></i></p>
+                            </div>
+                            <div
+                                class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 col-xs-2 hide   d-flex justify-content-center align-items-center">
+                                <p class="text-light m-0">Pricing </p>
+                            </div>
+
+                        </div>
+                        <!-- Left Side NavBar End-->
+
+                        <!-- Right Side NavBar Start-->
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 col-xs-5 d-flex ">
+
+                            <div
+                                class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7 col-xs-7   d-flex justify-content-center align-items-center hide">
+                                <input type="text" placeholder="Serach or jump to..."
+                                    class="w-100 text-light ps-2 py-1">
+                            </div>
+
+                            <div
+                                class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 col-xs-5 p-0  d-flex justify-content-center align-items-center px-2 sign_in_btn">
+                                <button
+                                    class="btn border  mx-1 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 col-xs-6 text-light border-0  fw-bold">Sign
+                                    in</button>
+                                <button
+                                    class="btn  mx-1 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 col-xs-6 text-light border hide px-1 fw-bold">Sign
+                                    Up</button>
+
+                            </div>
+
+
+                        </div>
+                        <!-- Right Side NavBar End-->
+
+
+                        <div class=" p-1 icon_div">
+
+                            <i class="fa-solid fa-bars" style="color: white;font-size: 35px;" id="menu_icon"></i>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--NavBar End-->
+
+
+    <!-- Hidden NavBar Start-->
+    <div class="container-fluid hidden_menu_div ">
+        <div class="row ">
+            <div
+                class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 border  w-100  d-flex justify-content-end   p-2 menu_div">
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 col-xs-4 border  menu_mini_box bg-light rounded px-2 py-2">
+
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 w-100 text-end">
+                        <i class="fa-solid fa-xmark border  text-end close_menu_icon "
+                            style="color: black; font-size: 35px;"></i>
+                    </div>
+
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12">
+                        <p class="text-dark mt-2 ps-3 ">Products
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                class="fw-bold text-secondary">></span></p>
+                    </div>
+
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12">
+                        <p class="text-dark mt-2 ps-3">Solutions
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                class="fw-bold text-secondary">></span></p>
+                    </div>
+
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12">
+                        <p class="text-dark mt-2 ps-3">Open Source
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                class="fw-bold text-secondary">></span></p>
+                    </div>
+
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12">
+                        <p class="text-dark mt-2 ps-3">Pricing</p>
+                    </div>
+
+                    <div
+                        class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 w-100  border d-flex justify-content-center align-items-center flex-column hidden_menu_bottom_item">
+                        <input type="text" placeholder="Search or jump to..."
+                            class="w-75 bg-secondary rounded  ps-1 py-1">
+                        <button class="btn border  mx-1  text-light bg-dark fw-bold w-75 rounded mt-3">Sign in</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hidden NavBar End-->
+
+
+
+    <!-- Content Start-->
+
+    <div class="container-fluid content_main_box d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <!-- Content First Box -->
+                <div
+                    class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 col-xs-1  d-flex align-items-center flex-column content_main_first_box">
+                    <i class="fa-regular fa-circle mb-2" style="color: gray;"></i>
+
+                    <div class="line"></div>
+                    <span class="lessthen_greater_then  mb-2" style="color: #fff;">&lt;&gt;</span>
+                    <div class="second_line  bg-none"></div>
+                    <i class="fa-solid fa-briefcase mt-3 mb-3 brifcase_icon" style="color: #fff;"></i>
+                    <div class="third_line  bg-none"></div>
+                </div>
+
+                <!-- Content Second Box -->
+                <div class="col-xxl-11 col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11 col-xs-11  content_second_box">
+                    <h1 class="fw-bold text-light Let_build">Let’s build from here</h1>
+                    <p class="text-secondary mb-5 world_leading">The world’s leading AI-powered developer platform.</p>
+
+                    <div
+                        class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 mt-5 d-flex input_span_btn_div">
+
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 col-xs-12 ">
+                            <input type="text" placeholder="Email address" class="w-100">
+                        </div>
+
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 col-xs-12 ">
+                            <button type="button" class="fw-bold signup_for_github w-100">Signup for Github</button>
+                        </div>
+
+                        <span class="small_line ms-3 me-3"></span>
+
+                        <div
+                            class="col-xxl-3 col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12 col-xs-12 position-relative ">
+                            <button type="button" class="fw-bold  free_trial_btn w-100">Start a free enterprise trial
+                                &nbsp;&nbsp;></button>
+                        </div>
+
+
+                    </div>
+                    <p class="text-secondary trusted_by_world_p">Trusted by the world’s leading organizations ↘︎</p>
+                    <div
+                        class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12  mb-5 d-flex one_line_imags_div mt-5 justify-content-center">
+
+                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 col-xs-3 m-0  ">
+                            <img src="images/3m.svg" alt="3M">
+                        </div>
+
+                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 col-xs-3 m-0  ">
+                            <img src="images/kpmg.svg" alt="3M">
+                        </div>
+
+                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 col-xs-3 m-0  ">
+                            <img src="images/mercedes.svg" alt="3M">
+                        </div>
+
+                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 col-xs-3 m-0  ">
+                            <img src="images/sap.svg" alt="3M">
+                        </div>
+
+                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 col-xs-3 m-0  ">
+                            <img src="images/p&g.svg" alt="3M">
+                        </div>
+
+                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 col-xs-3 m-0  ">
+                            <img src="images/telus.svg" alt="3M">
+                        </div>
+
+                    </div>
+
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 Productivity_div">
+                        <h3 class="text-light">Productivity</h3>
+                        <h1 class=" mt-4" id="Accelerate_innovation">Accelerate innovation</h1>
+                        <h1 class="text-light Our_AI">Our AI-powered platform increases the pace of software
+                            development.</h1>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-3 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 code_img_div">
+                    <img src="images/code.png" class="code1" alt="">
+                    <img src="images/code2.png" class="code_img" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-3 mb-5 content_box_2">
+        <div class="container">
+            <div class="row">
+
+                <!-- content_box_2 First Box -->
+                <div
+                    class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 col-xs-1  d-flex justify-content-center align-items-center lines_div">
+                    <div class="fouth_line  bg-none"></div>
+                    <img src="images/dot.svg" alt="" class="curve_line_img">
+
+                </div>
+
+                <!-- content_box_2 Second Box -->
+                <div class="col-xxl-11 col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11 col-xs-11  ">
+                    <div class="github_copilot "><span>GitHub Copilot</span> empowers developers to complete tasks 55%
+                        faster with contextualized AI coding assistance across workflows.</div>
+                    <h3 class="text-light ps-4 mt-3">Explore GitHub Copilot</h3>
+
+                    <button class="did_you_know_btn">Did you know ?</button>
+                    <h1 class="increase_btn">22% increase</h1>
+                    <h3 class="text-light ps-4 mt-3 w-75">in developer productivity after three years with GitHub</h3>
+                    <h3 class="text-light ps-4 mt-3  read_the_report">Read the report &nbsp; &gt;</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid  mb-5 ">
+        <div class="container gihub_action_main_div ">
+            <div class="row">
+
+                <div
+                    class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 gihub_action_mini_div    d-flex">
+
+                    <div
+                        class="col-xxl-1 col-xl-1 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12  d-flex justify-content-center align-items-center ">
+                    </div>
+
+                    <div
+                        class="col-xxl-5 col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 git_action_div   mt-5">
+                        <div class="github_copilot "><span> GitHub Actions </span>automates your build, test, and
+                            deployment workflow with simple and secure CI/CD.</div>
+
+                        <div class="github_copilot Discover text-light">Discover GitHub Actions &nbsp;&nbsp; &gt;</div>
+
+                    </div>
+
+                    <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12  code4_div">
+                        <img src="images/code4.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid  ">
+        <div class="container gihub_action_main_div mt-0">
+            <div class="row">
+
+                <div
+                    class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 gihub_action_mini_div    d-flex flex-column">
+
+
+                    <div
+                        class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 git_action_div   mt-5">
+                        <div class="github_copilot offers_a_complete"><span> GitHub Codespaces</span> offers a complete
+                            dev environment in seconds. Code, build, test, and open pull requests from any repo.</div>
+
+                        <div
+                            class="github_copilot check_out_github text-light col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12">
+                            Check out GitHub Codespaces &nbsp;&nbsp; &gt;</div>
+
+                    </div>
+
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 mt-5  code4_div">
+                        <img src="images/code5.png" alt="">
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 gihub_action_mini_div    position-relative   d-flex flex-column">
+
+
+                    <div
+                        class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 git_action_div   mt-5">
+                        <div class="github_copilot offers_a_complete"><span> GitHub Codespaces</span> offers a complete
+                            dev environment in seconds. Code, build, test, and open pull requests from any repo.</div>
+
+                        <div
+                            class="github_copilot check_out_github text-light col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12">
+                            Check out GitHub Codespaces > &nbsp;&nbsp; &gt;</div>
+
+                    </div>
+
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 mt-5 code4_div">
+                        <img src="images/code6.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-2 Application_security_main_div ">
+        <div class="container">
+            <div class="row">
+
+                <!-- content_box_3 First Box -->
+                <div
+                    class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 col-xs-1  d-flex align-items-center position-relative flex-column ">
+
+
+                    <div class="fivth_line  bg-none "></div>
+                    <i class="fa-solid fa-lock locker_icon mt-3 mb-3" style="color: #fff;"></i>
+                    <div class="sixth_line  bg-none "></div>
+                </div>
+
+                <!-- content_box_3 Second Box -->
+                <div class="col-xxl-11 col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11 col-xs-11  ">
+                    <div
+                        class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 Application_security_div">
+                        <h3 class="text-light">Application security</h3>
+                        <h1 class=" mt-4" id="Accelerate_innovation2">Empower developers</h1>
+                        <h1 class="text-light Our_AI">With GitHub, you can secure code in minutes.</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid  mt-2">
+        <div class="container  ">
+            <div class="row">
+
+                <div
+                    class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 gihub_action_mini_div    d-flex">
+
+                    <div
+                        class="col-xxl-1 col-xl-1 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12  d-flex justify-content-center align-items-center ">
+                    </div>
+
+                    <div
+                        class="col-xxl-5 col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 git_action_div   mt-5">
+                        <div class="github_copilot "><span> Code scanning </span>is our code analysis tool that helps
+                            you remediate issues in your code.</div>
+
+                        <div class="github_copilot Download text-light">Download the latest SAST ebook &nbsp;&nbsp; &gt;
+                        </div>
+
+                    </div>
+
+                    <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12  llu_Img_div">
+                        <img src="images/illu-code-scanning-fc9dfb212aa3.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-2 collaboration_Main_div ">
+        <div class="container">
+            <div class="row">
+
+                <!-- content_box_4 First Box -->
+                <div
+                    class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 col-xs-1  d-flex align-items-center position-relative flex-column ">
+
+
+                    <div class="seventh_line  bg-none "></div>
+                    <i class="fa-regular fa-handshake mt-3 mb-3 handshake_icon" style="color: #fff;"></i>
+                    <div class="eight_line  bg-none "></div>
+                </div>
+
+                <!-- content_box_4 Second Box -->
+                <div class="col-xxl-11 col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11 col-xs-11  ">
+                    <div
+                        class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 Application_security_div">
+                        <h3 class="text-light">Collaboration</h3>
+                        <h1 class=" mt-4" id="Supercharge_collaboration">Supercharge collaboration</h1>
+                        <h1 class="text-light efficiently">GitHub helps your teams work more efficiently together.</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Start -->
+
+    <div class="container-fluid mt-5 mb-5">
+        <div class="container ">
+            <div class="row">
+                <div
+                    class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-xs-12 mt-3 d-flex footer_MAin_div">
+
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 col-xs-12 ">
+                        <h1 class="text-light">Github</h1>
+                        <p class="fw-bold text-light">Subscribe to our developer newsletter</p>
+                        <p class="text-secondary">Get tips, technical guides, and best practices. Twice a month. Right
+                            in your inbox.</p>
+                        <button class="subscribe_btn">Subscribe</button>
+                    </div>
+
+                    <div
+                        class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 col-xs-12  d-flex flex-wrap ">
+
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 col-xs-6 ">
+                            <ul class="ul_tag ">
+                                <li>Product</li>
+                                <li>Features</li>
+                                <li>Enterprise</li>
+                                <li>Copilot</li>
+                                <li>Security</li>
+                                <li>Pricing</li>
+                                <li>Team</li>
+                                <li>Resources</li>
+                                <li>Roadmap</li>
+                                <li>Compare GitHub</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 col-xs-6 ">
+                            <ul class="ul_tag">
+
+                                <li>Platform</li>
+                                <li>Developer API</li>
+                                <li>Partners</li>
+                                <li>Electron</li>
+                                <li>GitHub Desktop</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 col-xs-6 ">
+                            <ul class="ul_tag">
+                                <li>Support</li>
+                                <li>Docs</li>
+                                <li>Community Forum</li>
+                                <li>Professional Services</li>
+                                <li>Premium Support</li>
+                                <li>Skills</li>
+                                <li>Status</li>
+                                <li>Contact GitHub</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 col-xs-6 ">
+                            <ul class="ul_tag">
+
+                                <li>Company</li>
+                                <li>About</li>
+                                <li>Customer stories</li>
+                                <li>Blog</li>
+                                <li>The ReadME Project</li>
+                                <li>Careers</li>
+                                <li>Press</li>
+                                <li>Inclusion</li>
+                                <li>Social Impact</li>
+                                <li>Shop</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testing"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
